@@ -1,0 +1,26 @@
+# Ignore secrets or local overrides
+.env
+*.env
+*.local
+secrets.json
+
+# VS Code
+.vscode/
+
+# Postman collections autosaves
+*.postman_environment.json
+*.postman_globals.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python scripts (if any)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js (if scripts exist)
+node_modules/
+npm-debug.log
